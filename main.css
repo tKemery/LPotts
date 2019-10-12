@@ -42,6 +42,13 @@ nav {
     margin-right: 10px;
     text-align: right;
 }
+#contact-link {
+    text-decoration: none;
+    color: white;
+}
+#contact-link:hover {
+    color: black;
+}
 main {
     width: 100%;
     margin-bottom: -200px;
