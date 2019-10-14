@@ -77,8 +77,13 @@ h2 {
     text-align: center;
 }
 .about-me-section {
+    border-bottom: 1px dashed grey;
     text-align: justify;
     padding-right: 10px;
+    width: 90%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .wrapper {
     /* text-align: center; */
@@ -124,7 +129,7 @@ li:hover {
     height: 100%;
 }
 iframe {
-    /* border: 1px solid #a449ff; */
+    height: 300px;
 }
 footer {
     height: 50px;
@@ -145,6 +150,8 @@ footer {
     .about-me-section, .availability-section {
         /* float: right; */
         width: 50%;
+        max-width: 500px;
+        margin: 0;
     }
     .availability-section {
         margin-bottom: 50px;
